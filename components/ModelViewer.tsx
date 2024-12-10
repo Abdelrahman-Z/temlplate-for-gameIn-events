@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-// @ts-nocheck
+// @ts-check
 import "@google/model-viewer";
 
 const ModelViewer: React.FC = () => {
