@@ -50,7 +50,7 @@ const ModelViewer: React.FC = () => {
         <h1 className="text-xl text-gray-600">3D Model Viewer</h1>
       </header>
 
-      <div className="flex flex-col max-w-3xl mt-8 rounded-lg overflow-hidden bg-white shadow-md">
+      <div className="flex flex-col max-w-3xl h-screen mt-8 rounded-lg overflow-hidden bg-white shadow-md">
         {/* 3D Model Viewer */}
         {React.createElement("model-viewer", {
           src: modelPath.glb,
@@ -61,7 +61,7 @@ const ModelViewer: React.FC = () => {
           "auto-rotate": true,
           ar: true,
           autoplay: true,
-          style: { width: "100%", height: "400px" },
+          style: { width: "100%", height: "1200px" },
         })}
 
         {/* Buttons to Switch Models */}
